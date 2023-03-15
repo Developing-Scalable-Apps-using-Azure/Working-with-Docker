@@ -84,7 +84,7 @@ docker push <username>/<target image>:<tag>
 
 ### Retag and push to ACR:
 ```
-az acr login sbacr01.azurecr.io
+az acr login -n sbacr01.azurecr.io
 Username: sbacr01
 Password: QG+kas3xgsxg272d8NfWLaTvcUl7PhpEyhBR98HNP++ACRBkpC07
 docker images
